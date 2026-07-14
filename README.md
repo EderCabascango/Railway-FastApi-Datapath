@@ -22,6 +22,7 @@ El proyecto soporta una ejecución híbrida:
 
 ## 📂 Estructura del Proyecto
 
+```text
 Railway - FastApi/
 ├── app/
 │   ├── __init__.py
@@ -31,11 +32,17 @@ Railway - FastApi/
 │   └── schemas.py        # Esquemas de validación de datos de Pydantic
 ├── modelos/
 │   └── modelo_ventas.pkl # Modelo regresor preentrenado (.pkl)
+├── img/                  # Capturas de evidencia del despliegue
+│   ├── 01_github_repository.png
+│   ├── 02_railway_dashboard.png
+│   ├── 03_api_health_endpoint.png
+│   ├── 04_api_docs_swagger.png
+│   └── 05_postgresql_persistence.png
 ├── .gitignore            # Archivos ignorados en el control de versiones
 ├── railway.toml          # Configuración de despliegue para la nube de Railway
 ├── requirements.txt      # Dependencias del proyecto para producción
 └── run.py                # Script opcional para ejecución local rápida
-
+```
 ---
 
 ## 🚀 Endpoints de la API
