@@ -89,3 +89,15 @@ Entra a http://127.0.0.1:8000/docs para interactuar con la documentación autoge
 Este repositorio está configurado para desplegarse automáticamente en Railway utilizando el archivo railway.toml. 
 
 * Al conectarse a un servicio de PostgreSQL dentro de Railway, la API leerá la variable DATABASE_URL provista por la plataforma e inicializará automáticamente el esquema de tablas en la base de datos de producción.
+
+## Imagenes de evidencia de funcionamiento
+1. Repositorio de Github
+![Repositorio GitHub](img/01_github_repository.png)
+2. Dashboard Railway
+![Dashboard Railway](img/02_railway_dashboard.png)
+3. Health del endpoint
+![Endpoint de Salud](img/03_api_health_endpoint.png)
+4. API en funcionamiento 200
+![Swagger API](img/04_api_docs_swagger.png)
+5. Registro en postgresSQL
+![Persistencia Postgres](img/05_postgresql_persistence.png)
